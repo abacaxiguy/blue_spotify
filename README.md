@@ -1,4 +1,9 @@
+<p>
+  <img alt="Blue Spotify" src="https://raw.githubusercontent.com/abacaxiguy/blue_spotify/master/icon.ico" />
+</p>  
+
 # Blue Spotify
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
