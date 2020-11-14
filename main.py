@@ -1,8 +1,3 @@
-""" import mute_spotify as mute
-
-while True:
-    mute.mute_spotify() """
-
 import sys
 import mute_spotify as mute
 from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton, QWidget, QGridLayout, QLabel
