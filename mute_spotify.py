@@ -26,9 +26,10 @@ def mute_spotify():
     if "Advertisement" in titles:
         if not Sound.is_muted():
             Sound.mute() 
-        print('MUTING...')
+        return False
 
     else:
         if Sound.is_muted():
             Sound.mute()
+        return True
            
