@@ -16,26 +16,9 @@ A python GUI/script that mutes when Spotify ad plays
 
 Requirements:
 
--   [Python](https://www.python.org/)
+-   None
 
-
-First and foremost, to run this script its necessary that you create your virtual environment in this folder:
-
-```bat
-python -m venv venv
-```
-
-
-With the venv set, you need to install the [dependencies.txt](/dependencies.txt):
-
-```bat
-call venv/Scripts/activate.bat
-pip install -r dependencies.txt
-call venv/Scripts/deactivate.bat
-```
-
-
-After installing the dependencies, just double-click the [Blue Spotify](/Blue%20Spotify.lnk).
+just double-click the [Blue Spotify](/Blue%20Spotify.exe) and be happy 😀.
 
 ---
 
