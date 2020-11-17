@@ -35,7 +35,7 @@ call venv/Scripts/deactivate.bat
 ```
 
 
-After installing the dependencies, just double-click the [Blue Spotify](/Blue%20Spotify.lnk).
+After installing the dependencies, just double-click the [Blue Spotify](/Blue%20Spotify.exe).
 
 ---
 
