@@ -13,10 +13,10 @@ A python GUI/script that mutes when Spotify ad plays
 <br>
 
 <p align="center">
-  <img src="./Screenshots/README_Screenshot1.png"/>
-  <img src="./Screenshots/README_Screenshot2.png"/>
-  <img src="./Screenshots/README_Screenshot3.png"/>
-  <img src="./Screenshots/README_Screenshot4.png"/>
+  <img src="./Screenshots/README_Screenshot1.png" width="200"/>
+  <img src="./Screenshots/README_Screenshot2.png" width="200"/>
+  <img src="./Screenshots/README_Screenshot3.png" width="200"/>
+  <img src="./Screenshots/README_Screenshot4.png" width="200"/>
 </p>
 
 ***
