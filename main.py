@@ -462,6 +462,7 @@ class App(QMainWindow):
 
         self.menu = QMenu()
         self.exitAction = self.menu.addAction('Exit')
+        self.exitAction.setIcon(QtGui.QIcon('icon.ico'))
         self.exitAction.triggered.connect(sys.exit)
 
         self.trayIcon.setContextMenu(self.menu)
