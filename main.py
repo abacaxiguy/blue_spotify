@@ -417,7 +417,6 @@ class Sound:
 from time import sleep
 
 def mute_spotify():
-    sleep(1)
     Sound.volume_set(20)
 
     windows = ctypes.windll.user32.EnumWindows    
@@ -460,7 +459,6 @@ class App(QMainWindow):
         super().__init__(parent)    
         self.trayIcon = QSystemTrayIcon(QtGui.QIcon('icon.ico'))
         self.trayIcon.setToolTip('Blue Spotify is running')
-        self.trayIcon.show()
 
         self.menu = QMenu()
         self.exitAction = self.menu.addAction('Exit')
@@ -471,14 +469,14 @@ class App(QMainWindow):
         timer = QtCore.QTimer(self)
 
         timer.timeout.connect(self.mute_action)
-        timer.start(2000)
+        timer.start(1000)
 
     def mute_action(self):
         response = mute_spotify()
         if response:
-            self.trayIcon.setToolTip('Blue Spotify is NOT MUTING')
+            self.trayIcon.setToolTip('Blue Spotify is not muting 🔵')
         else:
-            self.trayIcon.setToolTip('Blue Spotify is MUTING')
+            self.trayIcon.setToolTip('Blue Spotify is MUTING 🔴')
 
 
 
@@ -486,4 +484,5 @@ class App(QMainWindow):
 if __name__ == '__main__':
     qt = QApplication(sys.argv)
     app = App()
+    app.trayIcon.show()
     qt.exec_()
