@@ -441,6 +441,11 @@ def mute_spotify():
             Sound.mute() 
         return False
 
+    if "Spotify" in titles:
+        if not Sound.is_muted():
+            Sound.mute() 
+        return False
+
     else:
         if Sound.is_muted():
             Sound.mute()
@@ -461,7 +466,7 @@ class App(QMainWindow):
         self.trayIcon.setToolTip('Blue Spotify is running')
 
         self.menu = QMenu()
-        self.exitAction = self.menu.addAction('Exit')
+        self.exitAction = self.menu.addAction('Exit 👋')
         self.exitAction.setIcon(QtGui.QIcon('icon.ico'))
         self.exitAction.triggered.connect(sys.exit)
 
@@ -475,9 +480,9 @@ class App(QMainWindow):
     def mute_action(self):
         response = mute_spotify()
         if response:
-            self.trayIcon.setToolTip('Blue Spotify is not muting 🔵')
+            self.trayIcon.setToolTip('Blue Spotify is not muting 🔈')
         else:
-            self.trayIcon.setToolTip('Blue Spotify is MUTING 🔴')
+            self.trayIcon.setToolTip('Blue Spotify is MUTING ✋')
 
 
 
