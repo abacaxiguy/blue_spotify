@@ -31,12 +31,6 @@ just double-click the [Blue Spotify](/Blue%20Spotify.exe) and be happy 😀.
 
 ---
 
-## 😱 Pending issues
-
-When running the script or the GUI, the sound lib will increase your volume to 100 then to 20. Unfortunately this behavior will happen each time you run it.
-
-
----
 
 ## 🤝 Contributing
 
