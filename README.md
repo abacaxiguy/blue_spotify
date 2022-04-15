@@ -1,23 +1,26 @@
-<p>
-  <img alt="Blue Spotify" src="https://raw.githubusercontent.com/abacaxiguy/blue_spotify/master/icon.ico" />
-</p>  
+<div align="center">
+  <p>
+    <img alt="Blue Spotify" src="https://raw.githubusercontent.com/abacaxiguy/blue_spotify/master/icon.ico" height="60px"/>
+  </p>  
 
-# Blue Spotify
+  # Blue Spotify
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-</p>
+  <p>
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/abacaxiguy/blue_spotify" />
+    <img alt="Github Issues" src="https://img.shields.io/github/issues/abacaxiguy/blue_spotify" />
+    <a href="https://github.com/abacaxiguy" target="_blank"><img alt="Follow Me" src="https://img.shields.io/github/followers/abacaxiguy.svg?style=social&label=Follow&maxAge=2592000" /></a>
+  </p>
 
-A python GUI/script that mutes when Spotify ad plays
+  <h2>A python GUI/script that mutes when Spotify ad plays</h2>
 
-<br>
-
-<p align="center">
-  <img src="./Screenshots/README_Screenshot1.png" width="200"/>
-  <img src="./Screenshots/README_Screenshot2.png" width="200"/>
-  <img src="./Screenshots/README_Screenshot3.png" width="200"/>
-  <img src="./Screenshots/README_Screenshot4.png" width="200"/>
-</p>
+  <p>
+    <img src="./Screenshots/README_Screenshot1.png" width="200"/>
+    <img src="./Screenshots/README_Screenshot2.png" width="200"/>
+    <img src="./Screenshots/README_Screenshot3.png" width="200"/>
+    <img src="./Screenshots/README_Screenshot4.png" width="200"/>
+  </p>
+  
+</div>
 
 ***
 
