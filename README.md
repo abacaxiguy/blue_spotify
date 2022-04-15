@@ -11,7 +11,7 @@
     <a href="https://github.com/abacaxiguy" target="_blank"><img alt="Follow Me" src="https://img.shields.io/github/followers/abacaxiguy.svg?style=social&label=Follow&maxAge=2592000" /></a>
   </p>
 
-  <h2>A python GUI/script that mutes when Spotify ad plays</h2>
+  <h3>A python GUI/script that mutes when Spotify ad plays</h3>
 
   <p>
     <img src="./Screenshots/README_Screenshot1.png" width="200"/>
